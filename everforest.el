@@ -23,10 +23,10 @@
 ;;; definition/modification of themes
 
 ;;;###autoload
-;; (and load-file-name
-;;      (add-to-list 'custom-theme-load-path
-;; 		  (file-name-as-directory
-;; 		   (file-name-directory load-file-name))))
+ (and load-file-name
+      (add-to-list 'custom-theme-load-path
+ 		  (file-name-as-directory
+ 		   (file-name-directory load-file-name))))
 
-;; (provide 'everforest-theme)
-;;; everforest.el ends here
+ (provide 'everforest-theme)
+;; everforest.el ends here
